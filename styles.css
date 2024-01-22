@@ -3,26 +3,99 @@
 }
 
 body {
-    margin:0;
-    width: 70%;
     height: 100vh;
-    margin: 5px auto;
-    border: 1px solid;
-    
+    margin: 0;
+    font-family: roboto, sans-serif;
+}
+.width {
+    margin: 0 auto;
+    width: 70%;
+
 }
 
 .container {
     display: flex;
     justify-content: space-between;
     flex: 1 1 auto;
-    /* border: 1px solid; */
     gap: 15px;
+    padding-top: 3px;
 }
 
 .logo {
-    flex:1
+    flex:1;
 }
+
 a {
     flex:0 1 auto;
-    /* border: 1px solid; */
+    color:#e5e7eb;
+    text-decoration: none;
+}
+
+.upper-part {
+    padding-bottom: 60px;
+    background-color: #1f2937;
+    color:#e5e7eb;
+    font-size: 18px;
+}
+
+.website {
+    margin-top:60px;
+    display: flex;
+}
+
+.main-text {
+    font-size:48px;
+    font-weight: 800;
+    color: #f9faf8;
+    margin-bottom: 15px;
+    line-height: 0.85em;
+}
+
+.left-part {
+    flex: 2 1 0;
+    padding-right: 15px;
+}
+
+.rigth-part {
+    background-image: url(images/woman_2.png);
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    display: flex;
+    flex: 1 1 0;
+}
+
+.button {
+    background-color: #3882f6;
+    border: none;
+    color: #f9faf8;
+    padding: 7px 15px;
+    border-radius: 7px;
+    font-size: 18px;
+    margin-top: 20px;
+}
+
+.information {
+    /* border: #1f2937 solid; */
+    padding-bottom: 50px;
+}
+
+.info-text {
+    font-size: 36px;
+    font-weight: 800;
+    text-align: center;
+}
+
+.boxes {
+    display: flex;
+    justify-content: space-around;
+}
+
+.information div{
+    gap: 10px;
+
+}
+
+.underbox {
+    text-align: center;
 }
